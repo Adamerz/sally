@@ -3,7 +3,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 
-	background-color: #004d9d;
+	background-color: black;
 	color: #ffffff;
 }
 
@@ -13,10 +13,11 @@ header {
   left: 20px;
 }
 
-h1 {
-	font-size: 24px;
-	font-weight: 700;
+header img {
+	width: 80%;
 }
+
+
 
 footer {
   position: fixed;
@@ -32,26 +33,42 @@ a {
 }
 
 a:hover {
-  color: #ff4141;
+  color: yellow;
 }
 
 section {
   height: 100vh;
 
-  background-image: url('sally_1.jpg');
+  background-image: url('../images/sally_1.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .sally_2 {
-  background-image: url('sally_2.jpg');
+  background-image: url('../images/sally_2.jpg');
 }
 
 .sally_3 {
-  background-image: url('sally_3.jpg');
+  background-image: url('../images/sally_3.jpg');
 }
 
 .sally_4 {
-  background-image: url('sally_4.jpg');
+  background-image: url('../images/sally_4.jpg');
+}
+
+.sally_5 {
+  background-image: url('../images/sally_5.jpg');
+}
+
+.sally_6 {
+  background-image: url('../images/sally_6.jpg');
+}
+
+.sally_7 {
+  background-image: url('../images/sally_7.jpg');
+}
+
+.sally_8 {
+  background-image: url('../images/sally_8.jpg');
 }
